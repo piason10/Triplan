@@ -2,8 +2,8 @@ export const themeIds = ['classic','kyoto','sakura','soda','lemon','jeju','fores
 export const stickerIds = ['maple','sakura','sun','palm','plane','sparkles','coffee','moon','party','camera','cherries','strawberry','tent','snow','wave','flower','heart','butterfly','rainbow','star','compass','ticket','baggage','lemon','desert','cactus','train','shell'] as const;
 export type ThemeId=typeof themeIds[number];
 export type StickerId=typeof stickerIds[number];
-export type StickerZone='cover'|'workspace';
-export type Decoration={id:string;asset:StickerId;zone:StickerZone;x:number;y:number;size:number;rotation:number};
+export type StickerZone='cover'|'workspace'|'page';
+export type Decoration={id:string;asset:StickerId;zone:StickerZone;x:number;y:number;size:number;rotation:number;pageView?:'일정'|'장소 후보'|'예산'|'예약'|'준비'|'설정'|'all'};
 export type Appearance={themeId:ThemeId;theme:string;dark:boolean;coverMode:'photo'|'art';decorations:Decoration[];stickerMotion:boolean};
 export type ThemePreset={id:ThemeId;name:string;description:string;group:string;accent:string;secondary:string;paper:string;surface:string;ink:string;coverA:string;coverB:string;frame:string;pattern:string;stickers:StickerId[];night:boolean};
 const make=(id:ThemeId,name:string,description:string,group:string,accent:string,secondary:string,paper:string,ink:string,coverA:string,coverB:string,frame:string,pattern:string,stickers:StickerId[],night=false):ThemePreset=>({id,name,description,group,accent,secondary,paper,ink,coverA,coverB,frame,pattern,stickers,surface:'#ffffff',night});
