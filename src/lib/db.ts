@@ -1,0 +1,17 @@
+import { DatabaseSync } from 'node:sqlite';
+import { mkdirSync } from 'node:fs';
+import path from 'node:path';
+export const dataDir=path.resolve(process.env.DATA_DIR||'./data');
+mkdirSync(dataDir,{recursive:true});
+const g=globalThis as unknown as {triplanDB?:DatabaseSync};
+export const db=g.triplanDB||new DatabaseSync(path.join(dataDir,'triplan.sqlite'));
+g.triplanDB=db;
+db.exec(`PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS users(id TEXT PRIMARY KEY,email TEXT UNIQUE NOT NULL,name TEXT NOT NULL,password TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id),expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS trips(id TEXT PRIMARY KEY,owner TEXT NOT NULL REFERENCES users(id),data TEXT NOT NULL,version INTEGER NOT NULL DEFAULT 1,share TEXT);
+CREATE TABLE IF NOT EXISTS members(trip_id TEXT REFERENCES trips(id) ON DELETE CASCADE,user_id TEXT REFERENCES users(id),PRIMARY KEY(trip_id,user_id));
+CREATE TABLE IF NOT EXISTS invites(token TEXT PRIMARY KEY,trip_id TEXT REFERENCES trips(id) ON DELETE CASCADE,email TEXT NOT NULL,expires INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS comments(id TEXT PRIMARY KEY,trip_id TEXT REFERENCES trips(id) ON DELETE CASCADE,place_id TEXT,user_id TEXT REFERENCES users(id),body TEXT,created TEXT);
+CREATE TABLE IF NOT EXISTS files(id TEXT PRIMARY KEY,trip_id TEXT REFERENCES trips(id) ON DELETE CASCADE,reservation_id TEXT,name TEXT,mime TEXT,size INTEGER);
+CREATE TABLE IF NOT EXISTS attempts(key TEXT PRIMARY KEY,count INTEGER,reset INTEGER);`);

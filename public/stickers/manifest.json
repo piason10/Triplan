@@ -1,0 +1,395 @@
+{
+  "repositories": {
+    "fluentui-emoji": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+    "fluentui-emoji-animated": "daa0365c09795789ed2bc6e8b228c97736cb6669"
+  },
+  "stickers": [
+    {
+      "id": "maple",
+      "name": "단풍",
+      "file": "maple.png",
+      "source": "assets/Maple leaf/3D/maple_leaf_3d.png"
+    },
+    {
+      "id": "sakura",
+      "name": "벚꽃",
+      "file": "sakura.png",
+      "source": "assets/Cherry blossom/3D/cherry_blossom_3d.png"
+    },
+    {
+      "id": "sun",
+      "name": "햇살",
+      "file": "sun.png",
+      "source": "assets/Sun/3D/sun_3d.png",
+      "animated": "sun-animated.png",
+      "animatedSource": "assets/Sun/animated/sun_animated.png"
+    },
+    {
+      "id": "palm",
+      "name": "야자수",
+      "file": "palm.png",
+      "source": "assets/Palm tree/3D/palm_tree_3d.png"
+    },
+    {
+      "id": "plane",
+      "name": "비행기",
+      "file": "plane.png",
+      "source": "assets/Airplane/3D/airplane_3d.png",
+      "animated": "plane-animated.png",
+      "animatedSource": "assets/Airplane/animated/airplane_animated.png"
+    },
+    {
+      "id": "sparkles",
+      "name": "반짝임",
+      "file": "sparkles.png",
+      "source": "assets/Sparkles/3D/sparkles_3d.png"
+    },
+    {
+      "id": "coffee",
+      "name": "커피",
+      "file": "coffee.png",
+      "source": "assets/Hot beverage/3D/hot_beverage_3d.png",
+      "animated": "coffee-animated.png",
+      "animatedSource": "assets/Hot beverage/animated/hot_beverage_animated.png"
+    },
+    {
+      "id": "moon",
+      "name": "초승달",
+      "file": "moon.png",
+      "source": "assets/Crescent moon/3D/crescent_moon_3d.png"
+    },
+    {
+      "id": "party",
+      "name": "축하",
+      "file": "party.png",
+      "source": "assets/Party popper/3D/party_popper_3d.png",
+      "animated": "party-animated.png",
+      "animatedSource": "assets/Party popper/animated/party_popper_animated.png"
+    },
+    {
+      "id": "camera",
+      "name": "카메라",
+      "file": "camera.png",
+      "source": "assets/Camera with flash/3D/camera_with_flash_3d.png",
+      "animated": "camera-animated.png",
+      "animatedSource": "assets/Camera with flash/animated/camera_with_flash_animated.png"
+    },
+    {
+      "id": "cherries",
+      "name": "체리",
+      "file": "cherries.png",
+      "source": "assets/Cherries/3D/cherries_3d.png"
+    },
+    {
+      "id": "strawberry",
+      "name": "딸기",
+      "file": "strawberry.png",
+      "source": "assets/Strawberry/3D/strawberry_3d.png"
+    },
+    {
+      "id": "tent",
+      "name": "텐트",
+      "file": "tent.png",
+      "source": "assets/Tent/3D/tent_3d.png"
+    },
+    {
+      "id": "snow",
+      "name": "눈꽃",
+      "file": "snow.png",
+      "source": "assets/Snowflake/3D/snowflake_3d.png",
+      "animated": "snow-animated.png",
+      "animatedSource": "assets/Snowflake/animated/snowflake_animated.png"
+    },
+    {
+      "id": "wave",
+      "name": "파도",
+      "file": "wave.png",
+      "source": "assets/Water wave/3D/water_wave_3d.png",
+      "animated": "wave-animated.png",
+      "animatedSource": "assets/Water wave/animated/water_wave_animated.png"
+    },
+    {
+      "id": "flower",
+      "name": "꽃",
+      "file": "flower.png",
+      "source": "assets/Blossom/3D/blossom_3d.png"
+    },
+    {
+      "id": "heart",
+      "name": "하트",
+      "file": "heart.png",
+      "source": "assets/Red heart/3D/red_heart_3d.png",
+      "animated": "heart-animated.png",
+      "animatedSource": "assets/Red heart/animated/red_heart_animated.png"
+    },
+    {
+      "id": "butterfly",
+      "name": "나비",
+      "file": "butterfly.png",
+      "source": "assets/Butterfly/3D/butterfly_3d.png",
+      "animated": "butterfly-animated.png",
+      "animatedSource": "assets/Butterfly/animated/butterfly_animated.png"
+    },
+    {
+      "id": "rainbow",
+      "name": "무지개",
+      "file": "rainbow.png",
+      "source": "assets/Rainbow/3D/rainbow_3d.png",
+      "animated": "rainbow-animated.png",
+      "animatedSource": "assets/Rainbow/animated/rainbow_animated.png"
+    },
+    {
+      "id": "star",
+      "name": "별",
+      "file": "star.png",
+      "source": "assets/Star/3D/star_3d.png",
+      "animated": "star-animated.png",
+      "animatedSource": "assets/Star/animated/star_animated.png"
+    },
+    {
+      "id": "compass",
+      "name": "나침반",
+      "file": "compass.png",
+      "source": "assets/Compass/3D/compass_3d.png"
+    },
+    {
+      "id": "ticket",
+      "name": "티켓",
+      "file": "ticket.png",
+      "source": "assets/Ticket/3D/ticket_3d.png"
+    },
+    {
+      "id": "baggage",
+      "name": "여행 가방",
+      "file": "baggage.png",
+      "source": "assets/Luggage/3D/luggage_3d.png"
+    },
+    {
+      "id": "lemon",
+      "name": "레몬",
+      "file": "lemon.png",
+      "source": "assets/Lemon/3D/lemon_3d.png"
+    },
+    {
+      "id": "desert",
+      "name": "사막",
+      "file": "desert.png",
+      "source": "assets/Desert/3D/desert_3d.png"
+    },
+    {
+      "id": "cactus",
+      "name": "선인장",
+      "file": "cactus.png",
+      "source": "assets/Cactus/3D/cactus_3d.png"
+    },
+    {
+      "id": "train",
+      "name": "기차",
+      "file": "train.png",
+      "source": "assets/Locomotive/3D/locomotive_3d.png"
+    },
+    {
+      "id": "shell",
+      "name": "조개",
+      "file": "shell.png",
+      "source": "assets/Spiral shell/3D/spiral_shell_3d.png"
+    }
+  ],
+  "files": [
+    {
+      "name": "maple.png",
+      "bytes": 31966,
+      "sha256": "28004dbde0c0a6622ed4e53df0b7c0c77c3c29ad4f5b66d91819c390bcfb4f8d"
+    },
+    {
+      "name": "sakura.png",
+      "bytes": 35200,
+      "sha256": "e911aad0884966bbeb2a3feda131d5b5aa2fb3d70284e97b9cc1e94a75f953c0"
+    },
+    {
+      "name": "sun.png",
+      "bytes": 34812,
+      "sha256": "c9bb15d03d4b1e6151d97e12119ac93bbd2bcb5e713a49c1fcfc11ece54caec1"
+    },
+    {
+      "name": "sun-animated.png",
+      "bytes": 1918051,
+      "sha256": "48dcef21d08b2ddf7a745c7be9cf05ad62e7b206477a128d220c328861314104"
+    },
+    {
+      "name": "palm.png",
+      "bytes": 29123,
+      "sha256": "c29dcf2e535992b76f5e400d18c0b5dfd6ad9c69f9351a394ac9d8dcc622591a"
+    },
+    {
+      "name": "plane.png",
+      "bytes": 39468,
+      "sha256": "dda8d8e9ccaca71973f4ee75fcab085dcffbb89f3987a9d2cc5401f186268fa1"
+    },
+    {
+      "name": "plane-animated.png",
+      "bytes": 2445976,
+      "sha256": "98efa4908602533e5c685c04987aff90e271c2ff6e45732d04762765d03608d8"
+    },
+    {
+      "name": "sparkles.png",
+      "bytes": 21948,
+      "sha256": "e4490c9ff74a3fd73a8f99c760d65b6ed51b8a3e4ad28da137fec050b77e1058"
+    },
+    {
+      "name": "coffee.png",
+      "bytes": 44337,
+      "sha256": "edeaa3fca5eace5f2546efcd3b3e42ef1fd389a0c51d374dbf7863731db8f314"
+    },
+    {
+      "name": "coffee-animated.png",
+      "bytes": 2510296,
+      "sha256": "4b0330ea6c52a2d6f2b9b5e923ddc92ed00f72abe02542cfb3118ca0c0508b03"
+    },
+    {
+      "name": "moon.png",
+      "bytes": 23957,
+      "sha256": "0a5b5192390983789d430e37582dfda343be19bf8246feda73108484771ba09d"
+    },
+    {
+      "name": "party.png",
+      "bytes": 42512,
+      "sha256": "70a8e2f9daf1646be9e773751b7f3b6b281a2415cf29c3c3aeebd9c923cdc3e0"
+    },
+    {
+      "name": "party-animated.png",
+      "bytes": 1635548,
+      "sha256": "cae04ae58b7e5aeb0b22d37095f91342f10b807b661e8b5c1ef4c919f2829e12"
+    },
+    {
+      "name": "camera.png",
+      "bytes": 40783,
+      "sha256": "fabe124e007add8f59f1312760b0f634deafe039e81a640f91e9dba3582d7a80"
+    },
+    {
+      "name": "camera-animated.png",
+      "bytes": 1512437,
+      "sha256": "5eab3793a3ae44ae972c8004bc3d8003ba1e6ec097d61f6fcd1abd3c686184aa"
+    },
+    {
+      "name": "cherries.png",
+      "bytes": 35858,
+      "sha256": "3ebbdc0c13ab42cdf9b5ed27f444b17e92a01b08eac76a4c893c2210e86bca73"
+    },
+    {
+      "name": "strawberry.png",
+      "bytes": 29831,
+      "sha256": "446d640c24e146d03e8382c61ae52862848b11aadf74e7b47d200bc44d2f0223"
+    },
+    {
+      "name": "tent.png",
+      "bytes": 27397,
+      "sha256": "358343b871e0feb95ffa66db96cf41b1332469c89fcc5d6d3904055c81e84511"
+    },
+    {
+      "name": "snow.png",
+      "bytes": 40903,
+      "sha256": "82f12779eb8658ebd4bae02c8136c4588bea55cdf60536d4d88f5eb530e7cb90"
+    },
+    {
+      "name": "snow-animated.png",
+      "bytes": 2799132,
+      "sha256": "dfaf9d805128736da6ba405d999f981f2f8aa91650afa0e2fd9b91c1debb78f2"
+    },
+    {
+      "name": "wave.png",
+      "bytes": 32088,
+      "sha256": "b9e2164113966a33f547f336ba5e8b3517bdc28dca7a6646fc3ade9d99e2454c"
+    },
+    {
+      "name": "wave-animated.png",
+      "bytes": 2069320,
+      "sha256": "6bce9f6bd14e2d41b76d7fecb7f93c680e9a01ceb62f751fbe78accc9eba6607"
+    },
+    {
+      "name": "flower.png",
+      "bytes": 30424,
+      "sha256": "2ff4c5405a79e81d134fa27e563e9a381a8bcae7e46c014f1ac3401f5342c850"
+    },
+    {
+      "name": "heart.png",
+      "bytes": 29389,
+      "sha256": "7218cb9f08ed1ef38fcd83fe699a1125d07f50725f4c87a68cb7c9f4efb3c32b"
+    },
+    {
+      "name": "heart-animated.png",
+      "bytes": 1848815,
+      "sha256": "8a6040dba37b855ffbbaad939acac717f8e377b684b3e9796a0520f010b01cf8"
+    },
+    {
+      "name": "butterfly.png",
+      "bytes": 60804,
+      "sha256": "2ee52f94c6383dafdd29f471d04c17141563d7fff790d33e16781a751f72b397"
+    },
+    {
+      "name": "butterfly-animated.png",
+      "bytes": 3377706,
+      "sha256": "e0b7fa46a7dfa80540161c4329f6d5415aaf5c2d05b4c52bd3ab7e9a06ea7cdc"
+    },
+    {
+      "name": "rainbow.png",
+      "bytes": 34967,
+      "sha256": "81c60a96369047dd287b9fb54d02d29fe1e9b7fe3f00924330037e861b1fbd81"
+    },
+    {
+      "name": "rainbow-animated.png",
+      "bytes": 2258142,
+      "sha256": "1fce82a4b2e829c22f2960c75b5c5ff3589db205c280a6b15ef6b99f0aab6ca2"
+    },
+    {
+      "name": "star.png",
+      "bytes": 24449,
+      "sha256": "b935cdf502b69054bc2b08e7ba4e4eaba6499564a2041dd77d6291e21bf8cfe8"
+    },
+    {
+      "name": "star-animated.png",
+      "bytes": 1414547,
+      "sha256": "757342d32b37a3c6c21b032be883f13da09fdd95422c25520f52e98daee404e6"
+    },
+    {
+      "name": "compass.png",
+      "bytes": 58387,
+      "sha256": "146e39368bbeb95049ca200ba6fca3ded48f0883bc042230d9fa1939b6aec2e7"
+    },
+    {
+      "name": "ticket.png",
+      "bytes": 21419,
+      "sha256": "028205d97187bcfedcb2001bd45eb816d33fb321c1bdea3d056856ba5e78c4cf"
+    },
+    {
+      "name": "baggage.png",
+      "bytes": 31625,
+      "sha256": "4af3bc650c55c2f94a95146a7e92d2c5c969324fb4e19badf977f467a497856b"
+    },
+    {
+      "name": "lemon.png",
+      "bytes": 27587,
+      "sha256": "b0919ced1b7ae879f8900af4a71a001491280dbd9a6592eca808ee4801c673dc"
+    },
+    {
+      "name": "desert.png",
+      "bytes": 49316,
+      "sha256": "aef2c400f62926c4b47ecf8ec0e92782ca906d4ed11ea193b72eb79f4d912ba3"
+    },
+    {
+      "name": "cactus.png",
+      "bytes": 38825,
+      "sha256": "29b605a5fe3559f5830192a5d73df0685f7b3961c49a2df1150880444f99f436"
+    },
+    {
+      "name": "train.png",
+      "bytes": 41594,
+      "sha256": "4ee5fd92113fec82f486ccf3c1039cf17a250be2c11d003ed1cda6cdd667b5d7"
+    },
+    {
+      "name": "shell.png",
+      "bytes": 33001,
+      "sha256": "396cc96a0163458992ac8d5ed2e362eefdd7223067345723e776f437db2fb258"
+    }
+  ]
+}
